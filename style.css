@@ -10,3 +10,9 @@
     --background: #F6F3EA;
     --red: #F9423A;
 }
+
+body {
+    background-color: var(--background);
+    display: flex;
+    justify-content: center;
+}
