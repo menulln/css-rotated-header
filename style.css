@@ -35,6 +35,7 @@ body {
     grid-area: 2 / 2 / 5 / 3;
     text-orientation: mixed;
     writing-mode: vertical-rl; 
+    color: var(--red);
 }
 
 .gallery-list {
@@ -62,4 +63,10 @@ body {
 a {
     color: var(--black);
     text-decoration: none;
+}
+
+a:hover,
+li:hover {
+    color: var(--red);
+    cursor: pointer;
 }
