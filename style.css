@@ -17,3 +17,8 @@ body {
     justify-content: center;
     font-family: 'Jost', sans-serif;
 }
+
+.wrapper {
+    display: grid;
+    grid: 2fr 1fr 1fr 3fr 1fr / 2fr 2fr 2fr 1fr;
+}
