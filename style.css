@@ -17,29 +17,49 @@ body {
     display: flex;
     justify-content: center;
     font-family: 'Jost', sans-serif;
+    text-transform: uppercase;
 }
 
 .wrapper {
     display: grid;
     grid: 2fr 1fr 1fr 3fr 1fr / 2fr 2fr 2fr 1fr;
+    width: 80vw;
 }
 
 .heading {
     grid-area: 1 / 1 / 2 / 3;
+    text-align: right;
 }
 
 .author {
     grid-area: 2 / 2 / 5 / 3;
+    text-orientation: mixed;
+    writing-mode: vertical-rl; 
 }
 
 .gallery-list {
     grid-area: 4 / 1 / 6 / 2;
+    list-style: inside;
 }
 
 .link {
     grid-area: 5 / 2 / 6 / 5;
+    text-transform: none;
+}
+
+.link > a {
+    text-transform: uppercase;
 }
 
 .link-list {
     grid-area: 3 / 3 / 4 / 5;
+}
+
+.link-list > ul {
+    list-style: none;
+}
+
+a {
+    color: var(--black);
+    text-decoration: none;
 }
