@@ -18,6 +18,7 @@ body {
     justify-content: center;
     font-family: 'Jost', sans-serif;
     text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 .wrapper {
@@ -29,6 +30,7 @@ body {
 .heading {
     grid-area: 1 / 1 / 2 / 3;
     text-align: right;
+    font-size: 3rem;
 }
 
 .author {
@@ -36,16 +38,30 @@ body {
     text-orientation: mixed;
     writing-mode: vertical-rl; 
     color: var(--red);
+    font-size: 3rem;
 }
 
 .gallery-list {
     grid-area: 4 / 1 / 6 / 2;
     list-style: inside;
+    width: 90%;
+}
+
+.gallery-list > h2,
+ol > li {
+    border-bottom: 5px solid var(--black);
+}
+
+ul {
+    border-top: 5px solid var(--black);
+    border-bottom: 5px solid var(--black);
 }
 
 .link {
     grid-area: 5 / 2 / 6 / 5;
+    padding-top: 20px;
     text-transform: none;
+    border-bottom: 10px solid var(--red);
 }
 
 .link > a {
