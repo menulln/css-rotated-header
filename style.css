@@ -93,3 +93,15 @@ li:hover {
     color: var(--red);
     cursor: pointer;
 }
+
+.wrapper {
+    animation: 1s ease-out 0s 1 fadeIn;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    } to {
+        opacity: 1;
+    }
+}
