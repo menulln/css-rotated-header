@@ -6,13 +6,14 @@
 }
 
 :root {
-    --black: #0C0C0C;
+    --black: rgba(12, 12, 10, 0.8);
     --background: #F6F3EA;
     --red: #F9423A;
 }
 
 body {
     background-color: var(--background);
+    color: var(--black);
     display: flex;
     justify-content: center;
     font-family: 'Jost', sans-serif;
