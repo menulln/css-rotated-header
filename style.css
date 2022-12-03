@@ -4,3 +4,9 @@
     margin: 0;
     padding: 0;
 }
+
+:root {
+    --black: #0C0C0C;
+    --background: #F6F3EA;
+    --red: #F9423A;
+}
